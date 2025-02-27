@@ -1,0 +1,42 @@
+body {
+    background: rgba(0, 0, 0, 0.656);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+
+.texts {
+    margin-top: 20vh;
+    color: white;
+}
+.img {
+    height: 400px;
+    margin-top: 20vh;
+    transition: 0.5s all ease-in-out;
+    &:hover {
+        scale: 1.1;
+    }
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+

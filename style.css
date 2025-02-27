@@ -1,0 +1,139 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 5px 20px rgb(255, 255, 254);
+    height: 80px;
+    padding: 0 15px;
+    font-size: 20px;
+    
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url("mercedes img.avif");
+
+}
+.text {
+    margin-top: 50vh;
+    margin-left: 10vw;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h4 {
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 5px;
+}
+.href {
+    font-size: 20px;
+    margin-right: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+
+
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the screen without stretching */
+    z-index: -1; /* Makes sure the video stays behind the content */
+}
+
+
+footer{
+    background-color: #111;
+    margin-top: 30vh;
+}
+.footerContainer{
+    width: 100%;
+    padding-top: 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.svg {
+    height: 50px;
+    gap: 10px;
+
+}
+
+
